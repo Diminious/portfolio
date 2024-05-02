@@ -1,0 +1,186 @@
+html {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.return-home {
+    position: absolute;
+    top: 2em;
+    left: 5%;
+}
+
+header {
+    padding: 0 10%;
+    background-image: linear-gradient(#0008, #0008), url(../images/keyboard-mateo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+header nav {
+    padding: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+header nav p {
+    padding: 0 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header .header-flex {
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+}
+
+.header-item {
+    padding: 1rem 0;
+}
+
+header h1 {
+    background-image: radial-gradient(closest-side, #000, #0000);
+}
+
+@media only screen and (max-width: 900px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    header .header-flex {
+        font-size: 1.5em;
+    }
+
+    .space-above {
+        padding-top: 0.75em;
+    }
+}
+
+    /* Main Content */
+
+main {
+    background-color: #112A4B;
+    color: white;
+}
+
+section {
+    padding: 2em 10%;
+}
+
+section p {
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 0.5em 0;
+}
+
+.heading {
+    background-size: cover;
+    padding: 2em 0;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.h-about {
+    background-image: linear-gradient(#0007, #0007), url(../images/people-desola-lanre-ologun-unsplash.jpg);
+    background-position: 50% 40%;
+}
+
+.h-jam {
+    background-image: linear-gradient(#0007, #0007), url(../images/coding2-pankaj-patel-unsplash.jpg);
+    background-position: 50% 40%;
+}
+
+.h-events {
+    background-image: linear-gradient(#0007, #0007), url(../images/controller-alexey-savchenko-unsplash.jpg);
+    background-position: 50% 30%;
+}
+
+.events li {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.image-grid {
+    display: grid;
+    grid: 1fr / repeat(3, 1fr);
+    gap: 1em 1em;
+}
+
+.section-link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.section-link p {
+    font-size: 1.5em;
+    margin: 0 1em;
+}
+
+.section-link a {
+    text-decoration: none;
+    color: white;
+    background-color: #98360C;
+    border-radius: .2em;
+    padding: 0.5em 1em;
+}
+
+.link-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 900px) {
+    .image-grid {
+        grid: repeat(3, 1fr) / 1fr;
+    }
+
+    .events li {
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .events ul {
+        padding-left: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .section-link p {
+        font-size: 1.3em;
+        margin: 0;
+    }
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em 10%;
+    background-color: #112A4B;
+    color: white;
+}
+
+.copyright-symbol {
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+    footer {
+        align-items: center;
+        flex-direction: column;
+    }
+}
