@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="scripts/home.js" defer></script>
     <title>Matthew's Portfolio</title>
 </head>
 <body>
@@ -16,35 +23,53 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <p>Matthew Zengoski</p>
+        <p class="my-name">Matthew Zengoski</p>
     </header>
     
     <main>
         <h1>Matthew's Portfolio</h1>
-        <p class="subheading">A simple description of me and my career</p>
     
         <section class="about-me">
-            <div class="left-float">
-                <h2>About Me</h2>
-                <img src="https://media.licdn.com/dms/image/D5603AQFZXJrKBqsD4Q/profile-displayphoto-shrink_200_200/0/1676086295660?e=1720051200&v=beta&t=dWEcFPM5ACyWC-yur3zlZzVeZY9fbrp9EbdapsdSp10" alt="Matthew Zengoski's photo">
+            <h2>About Me</h2>
+            <div class="grid-container">
+                <div class="left container">
+                    <img src="https://media.licdn.com/dms/image/D5603AQFZXJrKBqsD4Q/profile-displayphoto-shrink_200_200/0/1676086295660?e=1720051200&v=beta&t=dWEcFPM5ACyWC-yur3zlZzVeZY9fbrp9EbdapsdSp10" alt="Matthew Zengoski's photo">
+                </div>
+                <div class="content container">
+                    <p>I'm Matthew, a 23 year old software developer from Wollongong, Australia. I completed a Bachelor of Computer Science in 2022 via the University of Wollongong and have continued learning new things ever since. I've been programming since I was 16 and over the past few years have been using these skills to create simple video games for PC.</p>
+                    <p>I enjoy playing guitar in my free time, and have done some video editing on the side.</p>
+                </div>
             </div>
-            <p>I'm Matthew, a 23 year old software developer from Wollongong, Australia. I completed a Bachelor of Computer Science in 2022 via the University of Wollongong and have continued learning new things ever since. I've been programming since I was 16 and over the past few years have been using these skills to create simple video games for PC.</p>
-            <p>I enjoy playing guitar in my free time, and have done some video editing on the side.</p>
 
         </section>
     
         <section class="projects">
             <h2>Projects</h2>
-            <div class="flex">
-                <ul>
-                    <li>Here might be <a href="">links</a> to the project pages</li>
-                    <li>Or maybe a pop-out info to the right</li>
+            <div class="grid-container">
+                <ul id="project-list">
+                    <li class="club-link">Stylised Club Page</li>
+                    <li class="generator-link">Random Message Generator</li>
+                    <li class="extra">Extra Test 1</li>
+                    <li class="extra">Extra Test 2</li>
+                    <li class="extra">Extra Test 3</li>
+                    <li class="extra">Extra Test 4</li>
                 </ul>
-                <div>
-                    <img src="" alt="image of project">
-                    <p>Project description</p>
-                    <p>Technology used</p>
-                    <p><a href="">A download link?</a></p>
+                <div class="project" id="empty">
+                    <p>Select an item on the left to view more information about it.</p>
+                </div>
+                <div class="project hidden" id="club">
+                    <h3>Stylised Club Page</h3>
+                    <img src="images/club-website-img.png" alt="image of project">
+                    <p class="description">A homepage for a club website inviting people to take part in club activities.</p>
+                    <p>Made using HTML and CSS with responsive design in mind.</p>
+                    <p><a href="/projects/club-website/index.html">Link to webpage</a></p>
+                </div>
+                <div class="project hidden" id="generator">
+                    <h3>Random Message Generator</h3>
+                    <img src="images/club-website-img.png" alt="image of project">
+                    <p class="description">A simple program that with every execution prints out a message inspired by the movie Hot Fuzz</p>
+                    <p>Made using JavaScript.</p>
+                    <p><a href="#">Link to webpage</a></p>
                 </div>
             </div>
         </section>
@@ -52,19 +77,21 @@
         <section class="skills grid">
             <h2>Skills</h2>
             <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Godot Game Engine</li>
+                <li>Unity Game Engine</li>
+                <li>SQL</li>
+                <li>C#</li>
                 <li>C++</li>
                 <li>Java</li>
-                <li>C#</li>
-                <li>HTML/CSS/JS</li>
-                <li>SQL</li>
                 <li>Python</li>
-                <li>Unity Game Engine</li>
-                <li>Godot Game Engine</li>
             </ul>
         </section>
 
         <footer>
-            <p>Website designed by Mattthew Zengoski</p>
+            <p>Website designed by Matthew Zengoski</p>
         </footer>
     </main>
     
