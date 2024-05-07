@@ -1,0 +1,92 @@
+.return-home {
+    position: absolute;
+    left: 3%;
+    top: 24px;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 10px 10%;
+}
+
+h1, h2, td, th, figcaption, footer, a{
+    font-family: "Nunito-Sans", sans-serif;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+header, footer {
+    background-color: lightblue;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+figure {
+    padding: 0 10%;
+    text-align: center;
+}
+
+figcaption {
+    margin: 5px auto;
+}
+
+table {
+    border: 4px black solid;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid slategrey;
+    padding: 5px;
+}
+
+thead {
+    background-color: lightblue;
+}
+
+tbody {
+    background-color: #bffffc;
+}
+
+.measurements {
+    margin-bottom: 5%;
+}
+
+footer p {
+    
+    text-align: center;
+    padding: 2em 0;
+}
+
+.code {
+    background-color: #2B2D31;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    padding: 1px 2px;
+}
+
+@media only screen and (max-width: 860px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    table, p, .code, figcaption {
+        font-size: .8rem;
+    }
+
+    .return-home {
+        position: absolute;
+        left: 2%;
+        top: 20px;
+    }
+
+}

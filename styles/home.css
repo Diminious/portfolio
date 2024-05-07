@@ -68,6 +68,8 @@ h2 {
 
 section li {
     padding: 0.5em 0;
+    
+    transition: all 0.2s;
 }
 
 .projects li:hover {

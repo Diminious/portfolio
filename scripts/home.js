@@ -1,8 +1,10 @@
 const emptyProject = document.getElementById("empty")
 const clubWebsite = document.getElementById("club")
 const messageGenerator = document.getElementById("generator")
+const cheatsheet = document.getElementById("cheatsheet")
+const styleguide = document.getElementById("style-guide")
 
-const projectsList = [emptyProject, clubWebsite, messageGenerator]
+const projectsList = [emptyProject, clubWebsite, messageGenerator, cheatsheet, styleguide]
 const projectNames = document.getElementById("project-list").getElementsByTagName("li")
 
 let previouslySelectedProject
@@ -41,6 +43,14 @@ function showProject(event) {
             messageGenerator.style.display = "block"
             break;
         
+        case "cheatsheet-link":
+            cheatsheet.style.display = "block"
+            break;
+
+        case "styleguide-link":
+            styleguide.style.display = "block"
+            break;
+            
         default:
             emptyProject.style.display = "block"
             break;

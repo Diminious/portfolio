@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding & Margins Cheat Sheet</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/cheatsheet-styles.css">
+</head>
+<body>
+    <header>
+        <a class="return-home" href="../../index.html">Home</a>
+        <h1>Common CSS Properties: Padding & Margins</h1>
+    </header>
+
+    <h2>Padding Properties</h2>
+    <figure class="padding">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Code Property</th>
+                    <th>Description</th>
+                    <th>Example Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Padding</td>
+                    <td rowspan="2"><span class="code">padding</span></td>
+                    <td>Sets padding on all four sides of an element clockwise (top, right, bottom, left)</td>
+                    <td><span class="code">padding: 10px 20px 30px 40px</span></td>
+                </tr>
+                <tr>
+                    <td>Sets padding on all four sides of an element using axes (vertical, horizontal) or all at once</td>
+                    <td><span class="code">padding: 5% 20%</span> or <span class="code">padding: 10px</span></td>
+                </tr>
+                <tr>
+                    <td>Left Padding</td>
+                    <td><span class="code">padding-left</span></td>
+                    <td>Sets padding on the <strong>left</strong> side of an element only</td>
+                    <td><span class="code" class="code">padding-left: 10px</span></td>
+                </tr>
+                <tr>
+                    <td>Right Padding</td>
+                    <td><span class="code">padding-right</span></td>
+                    <td>Sets padding on the <strong>right</strong> side of an element only</td>
+                    <td><span class="code">padding-right: 20px</span></td>
+                </tr>
+                <tr>
+                    <td>Top Padding</td>
+                    <td><span class="code">padding-top</span></td>
+                    <td>Sets padding on the <strong>top</strong> side of an element only</td>
+                    <td><span class="code">padding-top: 10%</span></td>
+                </tr>
+                <tr>
+                    <td>Bottom Padding</td>
+                    <td><span class="code">padding-bottom</span></td>
+                    <td>Sets padding on the <strong>bottom</strong> side of an element only</td>
+                    <td><span class="code">padding-bottom: 30px</span></td>
+                </tr>
+                <tr>
+                    <td>Padding Block</td>
+                    <td><span class="code">padding-block</span></td>
+                    <td>Defines the logical block start and end (or <strong>top and bottom</strong>) padding of an element regardless of orientation.</td>
+                    <td><span class="code">padding-block: 10px 20px</span></td>
+                </tr>
+                <tr>
+                    <td>Padding Inline</td>
+                    <td><span class="code">padding-inline</span></td>
+                    <td>Defines the logical inline start and end (or <strong>left and right</strong>) padding of an element regardless of orientation.</td>
+                    <td><span class="code">padding-inline: 40px 50%</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <figcaption>Note: Percentages refer to the percentage of the page that scales relative to the current size of the window.</figcaption>
+    </figure>
+
+    <h2>Margin Properties</h2>
+    <figure class="margins">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Code Property</th>
+                    <th>Description</th>
+                    <th>Example Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Margin</td>
+                    <td rowspan="2"><span class="code">margin</span></td>
+                    <td>Sets margins on all four sides of an element (in order: top, right, bottom, left)</td>
+                    <td><span class="code">margin: 10px, 20px, 30px, 40px</span></td>
+                </tr>
+                <tr>
+                    <td>Sets padding on all four sides of an element using axes (vertical, horizontal) or all at once</td>
+                    <td><span class="code">margin: 10% 50px</span> or <span class="code">margin: auto</span></td>
+                </tr>
+                <tr>
+                    <td>Left Margin</td>
+                    <td><span class="code">margin-left</span></td>
+                    <td>Sets margin on the <strong>left</strong> side of an element only</td>
+                    <td><span class="code">margin-left: 10px</span></td>
+                </tr>
+                <tr>
+                    <td>Right Margin</td>
+                    <td><span class="code">margin-right</span></td>
+                    <td>Sets margin on the <strong>right</strong> side of an element only</td>
+                    <td><span class="code">margin-right: 20px</span></td>
+                </tr>
+                <tr>
+                    <td>Top Margin</td>
+                    <td><span class="code">margin-top</span></td>
+                    <td>Sets margin on the <strong>top</strong> side of an element only</td>
+                    <td><span class="code">margin-top: 100px</span></td>
+                </tr>
+                <tr>
+                    <td>Bottom Margin</td>
+                    <td><span class="code">margin-bottom</span></td>
+                    <td>Sets margin on the <strong>bottom</strong> side of an element only</td>
+                    <td><span class="code">margin-bottom: 30px</span></td>
+                </tr>
+                <tr>
+                    <td>Margin Block</td>
+                    <td><span class="code">margin-block</span></td>
+                    <td>Defines the logical block start and end (or <strong>top and bottom</strong>) margin of an element regardless of orientation.</td>
+                    <td><span class="code">margin-block: 10% 20px</span></td>
+                </tr>
+                <tr>
+                    <td>Margin Inline</td>
+                    <td><span class="code">margin-inline</span></td>
+                    <td>Defines the logical inline start and end (or <strong>left and right</strong>) margin of an element regardless of orientation.</td>
+                    <td><span class="code">margin-inline: 40px 20px</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <figcaption>Note: Percentages refer to the percentage of the page that scales relative to the current size of the window.<br>Note 2: the keyword <span class="code">auto</span> can also be used to atuomatically select a suitable margin. In some cases it can be used to <strong>center</strong> an element. <em>This table uses this.</em></figcaption>
+    </figure>
+
+    <h2>Common Units of Measurement</h2>
+    <figure class="measurements">
+        <table>
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">px</span></td>
+                    <td>Pixels. Relative to the size of the screen.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">em</span></td>
+                    <td>Relative to the font size. May be different depending on the element.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">rem</span></td>
+                    <td>Relative to the font size of the <em>root</em> element of the document. Same for all elements.</td>
+                </tr>
+            </tbody>
+        </table>
+    </figure>
+
+    <footer>
+        <p>Website made by Matthew Z</p>
+    </footer>
+    
+</body>
+</html>

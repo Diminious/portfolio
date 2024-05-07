@@ -1,0 +1,187 @@
+@font-face {
+    font-family: BlockKie;
+    src: url(BlockKie.ttf) format("truetype");
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        padding-bottom: 5px;
+    }
+}
+
+.return-home {
+    position: absolute;
+    left: 3%;
+    top: 24px;
+}
+
+header, footer {
+    min-height: 100px;
+    background-color: #2EDCFF;
+}
+
+body {
+    text-align: center;
+    /* font goes here */
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.5px;
+    background-color: #62F3EC;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+h1, p{
+    padding: 10px;
+}
+
+h2 {
+    margin: 20px auto;
+}
+
+section {
+    margin: 0 5%;
+}
+
+.subtitle {
+    font-style: italic;
+    opacity: 75%;
+    padding-top: 0;
+}
+
+.colour-label {
+    margin: 0;
+}
+
+.colour-value {
+    padding: 0;
+}
+
+.colour-box {
+    display: inline-block;
+    width: 300px;
+    min-width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px;
+    transition: color 0.2s;
+    cursor: default;
+}
+
+.colour-box:hover {
+    color: transparent;
+}
+
+.colour-info {
+    height: 100px;
+    padding: 25px;
+}
+
+#colour-1 {
+    background-color: #5A52EF;
+    color: white;
+}
+
+#colour-1:hover {
+    color: transparent;
+}
+
+#colour-2 {
+    background-color: #00A0FF;
+}
+
+#colour-3 {
+    background-color: #2EDCFF;
+}
+
+#colour-4 {
+    background-color: #62F3EC;
+}
+
+#colour-5 {
+    background-color: #8AF410;
+}
+
+.font-box {
+    display: inline-block;
+    width: 40%;
+    min-width: 350px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px;
+    padding-top: 20px;
+    transition: background-color 0.5s;
+}
+
+.last-font {
+    margin-top: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.source-code-pro {
+    font-family: "Source Code Pro", Roboto, sans-serif;
+}
+
+.blockkie {
+    font-family: BlockKie, Roboto, sans-serif;
+}
+
+.roboto {
+    font-family: Roboto, sans-serif;
+}
+
+.style-box {
+    width: 30%;
+    min-width: 300px;
+    margin: 25px auto;
+    border: 2px solid black;
+    padding-bottom: 20px;
+    transition: background-color 0.5s;
+}
+
+.first-style {
+    margin-top: 10px;
+}
+
+.style-box li {
+    list-style: none;
+    text-align: left;
+}
+
+.font-box, .style-box {
+    background-color: #2EDCFF;
+}
+
+.font-box:hover, .style-box:hover {
+    background-color: #8AF410;
+}
+
+.style-box .subtitle {
+    padding-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

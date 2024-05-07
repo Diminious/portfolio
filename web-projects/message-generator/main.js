@@ -1,6 +1,6 @@
 
 //all different phrases
-const past1 = "made people diappear"
+const past1 = "made people disappear"
 const past2 = "fired a gun"
 const past3 = "fired two guns"
 const past4 = "been in a high speed pursuit"
@@ -39,4 +39,12 @@ function generateRandomMessage(){
     return `Have you ever ${firstPhrase} and ${secondPhrase} whilst ${thirdPhrase}?`
 }
 
-console.log("===\n" + generateRandomMessage() + "\n===")
+//console.log("===\n" + generateRandomMessage() + "\n===")
+
+const generateButton = document.getElementById("generate")
+const messageArea = document.getElementById("generated-message")
+
+generateButton.onclick = () => {
+    const message = generateRandomMessage()
+    messageArea.innerText = message
+}
