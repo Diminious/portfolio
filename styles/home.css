@@ -123,63 +123,78 @@ h3 {
     flex-wrap: wrap;
 }
 
-.flex p {
+
+
+.flex div{
     margin: 0.5rem;
     padding: 1.5em;
     min-width: 15rem;
-    text-align: center;
-    transition: all 0.3s, background 0s, background-color 0.3s;
-}
-
-.flex p:hover {
-    font-size: 1.25em;
-    padding: 1.0625em;
-    padding-left: 3em;
-    font-weight: 500;
-    background-color: #00000022;
     background-blend-mode: darken;
-    background-position: left;
-    background-size: contain;
+    background-position: center;
+    background-size: 0%;
     background-repeat: no-repeat;
-}
-
-#html:hover {
-    background-image: url("../images/logos/html5-logo.svg");
-}
-
-#css:hover {
-    background-image: url("../images/logos/css-logo.svg");
-}
-
-#js:hover {
-    background-image: url("../images/logos/js-logo.svg");
-}
-
-#godot:hover {
-    background-image: url("../images/logos/godot-logo.svg");
-}
-
-#unity:hover {
-    background-image: url("../images/logos/unity-logo.svg");
-}
-
-#sql:hover {
-    background-image: url("../images/logos/sql-logo.svg");
-}
-
-#c-sharp:hover {
-    background-image: url("../images/logos/c-sharp-logo.svg");
-}
-
-#c-plusplus:hover {
+    transition: all 0.3s;
     background-image: url("../images/logos/c-plusplus-logo.svg");
 }
 
-#java:hover {
+.flex p {
+    text-align: center;
+    margin: 0;
+    opacity: 100%;
+}
+
+.flex div:hover {
+    padding: 1.0625em;
+    padding-left: 2.5em;
+    background-color: #00000022;
+    background-blend-mode: darken;
+    background-position: left;
+    background-size: 32%;
+    background-repeat: no-repeat;
+    font-size: 1.25em;
+    font-weight: 500;
+    opacity: 100%;
+}
+
+
+#html {
+    background-image: url("../images/logos/html5-logo.svg");
+}
+
+#css {
+    background-image: url("../images/logos/css-logo.svg");
+}
+
+#js {
+    background-image: url("../images/logos/js-logo.svg");
+    padding-left: 3.2em;
+}
+
+#godot {
+    background-image: url("../images/logos/godot-logo.svg");
+}
+
+#unity {
+    background-image: url("../images/logos/unity-logo.svg");
+}
+
+#sql {
+    background-image: url("../images/logos/sql-logo.svg");
+}
+
+#c-sharp {
+    background-image: url("../images/logos/c-sharp-logo.svg");
+}
+
+#c-plusplus {
+    background-image: url("../images/logos/c-plusplus-logo.svg");
+}
+
+#java {
     background-image: url("../images/logos/java-logo.svg");
 }
 
-#python:hover {
+#python {
     background-image: url("../images/logos/python-logo.svg");
 }
 
