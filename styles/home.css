@@ -112,6 +112,77 @@ h3 {
     margin: 0;
 }
 
+.skills {
+    min-height: 20rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex p {
+    margin: 0.5rem;
+    padding: 1.5em;
+    min-width: 15rem;
+    text-align: center;
+    transition: all 0.3s, background 0s, background-color 0.3s;
+}
+
+.flex p:hover {
+    font-size: 1.25em;
+    padding: 1.0625em;
+    padding-left: 3em;
+    font-weight: 500;
+    background-color: #00000022;
+    background-blend-mode: darken;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#html:hover {
+    background-image: url("../images/logos/html5-logo.svg");
+}
+
+#css:hover {
+    background-image: url("../images/logos/css-logo.svg");
+}
+
+#js:hover {
+    background-image: url("../images/logos/js-logo.svg");
+}
+
+#godot:hover {
+    background-image: url("../images/logos/godot-logo.svg");
+}
+
+#unity:hover {
+    background-image: url("../images/logos/unity-logo.svg");
+}
+
+#sql:hover {
+    background-image: url("../images/logos/sql-logo.svg");
+}
+
+#c-sharp:hover {
+    background-image: url("../images/logos/c-sharp-logo.svg");
+}
+
+#c-plusplus:hover {
+    background-image: url("../images/logos/c-plusplus-logo.svg");
+}
+
+#java:hover {
+    background-image: url("../images/logos/java-logo.svg");
+}
+
+#python:hover {
+    background-image: url("../images/logos/python-logo.svg");
+}
+
 footer {
     padding: 2rem 0;
     text-align: right;

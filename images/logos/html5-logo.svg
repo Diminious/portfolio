@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<g transform="matrix(1.5625 0 0 1.5625 500 500)" id="443040">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 -0.5 0)">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(227,79,38); fill-rule: nonzero; opacity: 1;" transform=" translate(-255.5, -256)" d="M 71 460 L 30 0 L 481 0 L 440 460 L 255 512" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 92 -1.5)">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(239,101,42); fill-rule: nonzero; opacity: 1;" transform=" translate(-348, -254.5)" d="M 256 472 L 405 431 L 440 37 L 256 37" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 -71 -2)">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(235,235,235); fill-rule: nonzero; opacity: 1;" transform=" translate(-185, -254)" d="M 256 208 L 181 208 L 176 150 L 256 150 L 256 94 L 255 94 L 114 94 L 115 109 L 129 265 L 256 265 z M 256 355 L 255 355 L 192 338 L 188 293 L 158 293 L 132 293 L 139 382 L 255 414 L 256 414 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 70 -2)">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-326, -254)" d="M 255 208 L 255 265 L 325 265 L 318 338 L 255 355 L 255 414 L 371 382 L 372 372 L 385 223 L 387 208 L 371 208 z M 255 94 L 255 129 L 255 150 L 255 150 L 392 150 L 392 150 L 392 150 L 393 138 L 396 109 L 397 94 z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>
