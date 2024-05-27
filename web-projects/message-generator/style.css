@@ -7,7 +7,6 @@ body {
 }
 
 header {
-    /* height: 10%; */
     padding: 1em 10%;
     margin-bottom: 1em;
     background-color: lightgray;
@@ -46,7 +45,11 @@ button {
 
 @media only screen and (max-width: 700px) {
     header {
-        font-size: 0.5em;
+        font-size: 0.8em;
+    }
+
+    .return-home {
+        font-size: 1rem;
     }
 
     body {
