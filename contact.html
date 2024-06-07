@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script src="scripts/contact.js" defer></script>
     <title>Contact Me</title>
 </head>
 <body>
@@ -11,28 +17,39 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <p>Matthew Zengoski</p>
+        <p class="my-name">Matthew Zengoski</p>
     </header>
 
     <main>
         <h1>Contact</h1>
 
-        <section class="contact">
-            <h2>LinkedIn</h2>
-            <p>linkedin.com/in/matthew-zengoski-b8bb8a233/</p>
-            <h2>Email</h2>
-            <p>matthewzengoski@gmail.com</p>
-            <h2>Mobile</h2>
-            <p>+61 467 091 797</p>
-        </section>
+        <div class="grid">
+            <section id="contact">
+                <a href="https://www.linkedin.com/in/matthew-zengoski-b8bb8a233/" target="_blank" class="linkedin">
+                    <p>LinkedIn</p>
+                </a>
+                <a href="mailto:matthewzengoski@gmail.com" class="email">
+                    <p>Email</p>
+                </a>
+                <a href="tel:+61467091797" class="mobile">
+                    <p>Mobile</p>
+                </a>
+                
+            </section>
+            <section class="personal-image">
+                <img src="https://media.licdn.com/dms/image/D5603AQFZXJrKBqsD4Q/profile-displayphoto-shrink_200_200/0/1676086295660?e=1720051200&v=beta&t=dWEcFPM5ACyWC-yur3zlZzVeZY9fbrp9EbdapsdSp10" alt="Matthew Zengoski's photo">
+            </section>
+            <summary></summary>
+        </div>
+        
 
         <footer>
-            <p>Website designed by Mattthew Zengoski</p>
+            <p>Website designed by Matthew Zengoski</p>
         </footer>
     </main>
 </body>

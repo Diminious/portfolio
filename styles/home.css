@@ -48,10 +48,14 @@ h2 {
 
 .about-me .grid-container{
     grid-template-rows: 1fr;
+    align-items: center;
 }
 
 .about-me img {
     width: 300px;
+    margin: auto;
+    object-fit: cover;
+    max-height: auto;
 }
 
 .container {
@@ -123,8 +127,6 @@ h3 {
     flex-wrap: wrap;
 }
 
-
-
 .flex div{
     margin: 0.5rem;
     padding: 1.5em;
@@ -135,12 +137,12 @@ h3 {
     background-repeat: no-repeat;
     transition: all 0.3s;
     background-image: url("../images/logos/c-plusplus-logo.svg");
+    border: solid black 2px;
 }
 
 .flex p {
     text-align: center;
     margin: 0;
-    opacity: 100%;
 }
 
 .flex div:hover {
@@ -153,7 +155,6 @@ h3 {
     background-repeat: no-repeat;
     font-size: 1.25em;
     font-weight: 500;
-    opacity: 100%;
 }
 
 
@@ -167,6 +168,9 @@ h3 {
 
 #js {
     background-image: url("../images/logos/js-logo.svg");
+}
+
+#js:hover {
     padding-left: 3.2em;
 }
 
@@ -201,4 +205,59 @@ h3 {
 footer {
     padding: 2rem 0;
     text-align: right;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    main {
+        /* font-size: 0.9em; */
+        text-align: center;
+    }
+
+    main ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-me .grid-container{
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .content, .project {
+        grid-column: 1; 
+    }
+
+    .project, #empty {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    
+    header {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0.5em;
+        padding: 1.5em;
+    }
+
+    header p {
+        font-weight: bold;
+    }
 }
