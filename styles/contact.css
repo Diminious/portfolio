@@ -57,7 +57,7 @@ footer {
 }
 
 .personal-image img{
-    width: 80%;
+    width: 60%;
     max-height: auto;
     object-fit: cover;
     margin: auto;
@@ -142,7 +142,7 @@ footer {
     }
 
     .personal-image img {
-        max-width: 500px;
+        max-width: 100%;
     }
     
     footer {
