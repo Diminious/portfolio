@@ -1,11 +1,11 @@
 html {
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Source Code Pro", sans-serif;
 }
 
 .return-home {
     position: absolute;
-    top: 2em;
-    left: 5%;
+    top: 0.5em;
+    left: 3%;
 }
 
 header {
