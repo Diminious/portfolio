@@ -5,7 +5,7 @@ const cheatsheet = document.getElementById("cheatsheet")
 const styleguide = document.getElementById("style-guide")
 const engage = document.getElementById("engage-growths")
 
-const projectsList = [emptyProject, clubWebsite, messageGenerator, cheatsheet, styleguide, engage]
+const projectsList = [emptyProject, clubWebsite, engage, messageGenerator, cheatsheet, styleguide]
 const projectNames = document.getElementById("project-list").getElementsByTagName("li")
 
 let previouslySelectedProject
