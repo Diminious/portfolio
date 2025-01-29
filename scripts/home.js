@@ -4,8 +4,9 @@ const messageGenerator = document.getElementById("generator")
 const cheatsheet = document.getElementById("cheatsheet")
 const styleguide = document.getElementById("style-guide")
 const engage = document.getElementById("engage-growths")
+const reddit = document.getElementById("reddit-client")
 
-const projectsList = [emptyProject, clubWebsite, engage, messageGenerator, cheatsheet, styleguide]
+const projectsList = [emptyProject, clubWebsite, engage, reddit, messageGenerator, cheatsheet, styleguide]
 const projectNames = document.getElementById("project-list").getElementsByTagName("li")
 
 let previouslySelectedProject
@@ -54,6 +55,10 @@ function showProject(event) {
 
         case "engage-growths-link":
             engage.style.display = "block"
+            break;
+
+        case "reddit-client-link":
+            reddit.style.display = "block"
             break;
 
         default:
